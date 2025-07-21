@@ -1,0 +1,81 @@
+
+
+
+/* Shared Style Here */
+
+
+
+
+
+
+
+/* Header Section Start */
+.main-header{
+    background-image: url(../image/Assets/Hero-bg.png);
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    left: 1px;
+    top: 0;
+    align-items: center;
+    gap: 158;
+    padding: 0px 0px 200px 0px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 1140px; 
+    height: 151px;
+    margin-left: 150px;
+}
+.nav-h1{
+    width: 99px;
+    height: 51px;
+    color: rgb(78, 71, 255);
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+    font-size: 34px;
+
+}
+
+.nav-button{
+width: 132px;
+height: 48px;
+padding: 12px 36px 12px 36px;
+border-radius: 10px;
+background: rgb(78, 71, 255);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 700px;
+}
+
+.nav-description{
+    width: 900px;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-title{
+    width: 905px;
+    height: 152px;
+    color: rgb(37, 36, 50);
+    font-size: 65px;
+    font-weight: 700;
+    margin-left: 150px;
+    text-align: center;
+}
+.header-button{
+    width: 174px;
+    height: 48px;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
