@@ -278,6 +278,13 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     background-color: rgb(78, 71, 255);
     border: none;
     border-radius: 5px;
+    
+}
+.btn-footer:hover{
+    background-color: cadetblue;
+}
+button:hover{
+    background-color: burlywood;
 }
 .footer-final{
 text-align: center;
