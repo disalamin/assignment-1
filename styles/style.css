@@ -2,17 +2,15 @@
 
 
 /* Shared Style Here */
-
-
-
-
+body{
+    background-color: rgb(245, 248, 255);
+}
 
 
 
 /* Header Section Start */
 .main-header{
     background-image: url(../image/Assets/Hero-bg.png);
-    position: absolute;
     width: 1440px;
     height: 400px;
     left: 1px;
@@ -78,4 +76,166 @@ font-weight: 700px;
     color: white;
     border: none;
     font-size: 16px;
+}
+.hello{
+    font-size: larger;
+    font-weight: 900;
+}
+
+/* Main Section Start Here */
+.first-section{
+display: flex;
+justify-content: space-between;
+width: 1140px;
+height: 328px;
+margin-left: 150px;
+margin-top: 120px;
+
+}
+.first-sec-des{
+width: 517px;
+height: 203px;
+}
+.sec-title{
+width: 517px;
+height: 49px;
+color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+}
+.sec-subtitle{
+color: rgba(37, 36, 50, 0.5);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+.lunch-btn{
+width: 229px;
+height: 48px;
+border-radius: 10px;
+background: rgb(78, 71, 255);
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+border: none;
+}
+.img-sec-one{
+border-radius: 48px;
+}
+/* second section start here */
+.user{
+width: 1140px;
+height: 306px;
+border-radius: 24px;
+background: rgba(78, 71, 255, 0.1);
+margin-left: 120px;
+margin-top: 100px;
+margin-bottom: 100px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.user-title{
+text-align: center;
+font-size: 38px;
+font-weight: 700px;
+}
+.user-des{
+      display: flex;
+      justify-content: center;   
+      align-items: center;
+      text-align: center;
+      margin-left: 120px;
+}
+ .user-des-head{
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border-radius: 8px;
+      display:block;
+      margin-right: 100px;
+
+ }
+.user-des-title{
+    font-size: 54px;
+    color: blue;
+}
+
+.user-name{
+color: rgba(0, 0, 0, 0.5);
+font-size: 13px;
+margin-top: -40px;
+}
+/* user say section start */
+.user-say{
+    text-align: center;
+}
+.user-say-title{
+ font-size: 38px;
+}
+/* user say section start */
+.rating{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    width: 1140px;
+    height: 350px;
+    align-items: center;
+    margin-left: 130px;
+
+}
+.rating-box{
+background-color:rgba(255, 255, 255, 0.5);
+margin-right: 20px;
+padding: 50px;
+border-radius: 15px;
+}
+.rating-p{
+color: rgb(117, 117, 117);
+}
+.star{
+    text-align: center;
+    color: chocolate;
+}
+.rating-title{
+text-align: center;
+}
+/* focus section start here */
+.focus{
+width: 1140px;
+height: 700px;
+margin-left: 100px;
+}
+.focus-des{
+    text-align: center;
+    line-height: 10px;
+}
+.focus-des-title{
+    font-size: 50px;
+}
+.focus-des-title-p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.focus-btn{
+    width: 180px;
+    height: 48px;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
+    background-color: rgb(78, 71, 255);
+    border: none;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.focus-img{
+text-align: center;
+margin-left: 150px;
+width: 840px;
+height: 370px;
+border-radius: 30px;
 }
