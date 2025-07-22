@@ -299,4 +299,14 @@ ul a{
     color: rgb(137, 135, 161);
     margin-right: 20px;
 }
+.rating-p-img{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.date{
+text-align: center;
+color: rgba(37, 36, 50, 0.5);
+margin: 0%;
+}
 
